@@ -8,7 +8,7 @@ services:
       APP_PORT: 8080
 
   server:
-    image: gbaygon/homer:latest
+    image: b4bz/homer:latest
     volumes:
       - ${APP_DATA_DIR}/config:/config
     environment:
