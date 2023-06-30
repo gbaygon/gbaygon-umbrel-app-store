@@ -2,14 +2,17 @@ version: "3"
 services:
   app_proxy:
     environment:
-      # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: navidrome_server_1
       APP_PORT: 4533
+      PROXY_AUTH_ADD: "false"
+
   server:
     image: deluan/navidrome:latest
-    user: 1000:1000 # should be owner of volumes
     restart: on-failure
-    init: true
+    hostname: "${DEVICE_HOSTNAME}"
+    environment:
+      - PUID=1000
+      - PGID=1000
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
       - ${UMBREL_ROOT}/data/storage/downloads:/downloads
