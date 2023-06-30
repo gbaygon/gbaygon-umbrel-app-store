@@ -2,7 +2,7 @@ manifestVersion: 1
 id: navidrome
 name: navidrome
 tagline: Your Personal Streaming Service
-icon: https://raw.githubusercontent.com/navidrome/navidrome/master/resources/logo-192x192.png
+#https://raw.githubusercontent.com/navidrome/navidrome/master/resources/logo-192x192.png
 category: media
 version: "1.0.0"
 port: 4533
