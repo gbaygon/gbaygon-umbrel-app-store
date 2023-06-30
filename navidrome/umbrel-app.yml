@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: navidrome
+name: navidrome
+tagline: Your Personal Streaming Service
+icon: https://raw.githubusercontent.com/navidrome/navidrome/master/resources/logo-192x192.png
+category: media
+version: "1.0.0"
+port: 4533
+description: >-
+  Navidrome is an open source web-based music collection server and streamer.
+  
+  It gives you freedom to listen to your music collection from any browser or mobile device.
+  
+  It's like your personal Spotify!
+
+developer: navidrome
+website: https://github.com/navidrome/navidrome
+submitter: Umbrel
+submission: https://github.com/navidrome/navidrome
+repo: https://github.com/navidrome/navidrome
+support: https://github.com/navidrome/navidrome
+gallery:
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
