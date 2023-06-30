@@ -5,7 +5,7 @@ tagline: Your Personal Streaming Service
 icon: https://raw.githubusercontent.com/navidrome/navidrome/master/resources/logo-192x192.png
 category: media
 version: "1.0.0"
-port: 4533
+port: 4577
 description: >-
   Navidrome is an open source web-based music collection server and streamer.
   
